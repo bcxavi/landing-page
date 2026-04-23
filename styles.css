@@ -2,6 +2,10 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /* HEADER GENERAL */
@@ -11,7 +15,7 @@ body {
   padding: 16px 64px;
 }
 
-/* TOP HEADER (logo + nav) */
+/* TOP HEADER */
 .top-header {
   display: flex;
   justify-content: space-between;
@@ -39,7 +43,7 @@ body {
   font-size: 18px;
 }
 
-/* HERO SECTION */
+/* HERO */
 .hero {
   display: flex;
   align-items: center;
@@ -47,12 +51,10 @@ body {
   padding: 48px 0;
 }
 
-/* HERO LEFT */
 .hero-content {
   flex: 1;
 }
 
-/* HERO RIGHT */
 .hero-image {
   flex: 1;
 }
@@ -63,7 +65,7 @@ body {
   display: block;
 }
 
-/* TEXTOS */
+/* TEXTOS HERO */
 .hero-title {
   font-size: 48px;
   font-weight: 900;
@@ -87,10 +89,59 @@ body {
   cursor: pointer;
 }
 
+/* MAIN (INFO SECTION) */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 0;
+
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* TÍTULO INFO */
+.info-header {
+  font-size: 32px;
+  color: #1f2937;
+  font-weight: 900;
+  margin: 0;
+}
+
+/* CONTENEDOR DE CARDS */
+.info-cards {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* CARD INDIVIDUAL */
+.info-card {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* IMÁGENES DE LAS CARDS */
+.info-card img {
+  width: 100%;
+  height: auto;
+}
+
+/* TEXTO CARD */
+.subtext {
+  width: 100%;
+  text-align: center;
+}
+
 /* FOOTER */
 .footer {
-    background-color: #1f2937;
-    color: #e5e7eb;
-    padding: 18px;
-    text-align: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 32px;
+  margin-top: auto;
 }
