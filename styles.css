@@ -145,3 +145,31 @@ body {
   padding: 32px;
   margin-top: auto;
 }
+
+/* QUOTE SECTION */
+.quote-card {
+  background-color: #e5e7eb;
+  padding: 96px 64px;
+}
+
+.quote-content {
+  max-width: 696px;
+  margin: 0 auto;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+  margin: 0;
+}
+
+.author {
+  font-size: 24px;
+  font-weight: 900;
+  text-align: right;
+  color: #1f2937;
+  text-align: right;
+  margin: 16px 0 0;
+}
